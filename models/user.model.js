@@ -27,5 +27,5 @@ const userSchema = new mongoose.Schema({
   },
 });
 
-const user = mongoose.model("user", userSchema);
+const user = mongoose.model("user", userSchema); // .model() --> gives you the access to write,read,delete,etc
 module.exports = user;
